@@ -3,29 +3,29 @@
 
 // const names = [
 //     {
-//       firstName: "",
-//       middleName: "",
-//       lastName: "",
+//       firstName: "Amanda",
+//       middleName: null,
+//       lastName: "Gudlwa",
 //     },
 //     {
-//         firstName: "",
-//         middleName: "",
-//         lastName: "",
+//         firstName: "Xena",
+//         middleName: null,
+//         lastName: "Skhikhi",
 //     },
 //     {
-//         firstName: "",
-//         middleName: "",
-//         lastName: "",
+//         firstName: "Reagan",
+//         middleName: null,
+//         lastName: "Carolussen",
 //     },
 //     {
-//         firstName: "",
-//         middleName: "",
-//         lastName: "",
+//         firstName: "Cassidy",
+//         middleName: null,
+//         lastName: "Manuel",
 //     },
 //     {
-//         firstName: "",
+//         firstName: "Marshalino",
 //         middleName: "",
-//         lastName: "",
+//         lastName: "Jankowski",
 //     },
 //     {
 //         firstName: "",
@@ -64,8 +64,14 @@
 //     `;
 //   });
 
-const names = ["Amanda", "Xena", "Mikayla", "Meaghan", "Cassidy", "Reagan", "Marshalino", "Mikhail", "Cameron","Monique"];
-console.log(names);
+// const names = ["Amanda", "Xena", "Mikayla", "Meaghan", "Cassidy", "Reagan", "Marshalino", "Mikhail", "Cameron","Monique"];
+// console.log(names);
 
-console.log(names[4]);
-console.log(names[9]);
+// console.log(names[4]);
+// console.log(names[9]);
+
+let bestFriends = ["Amanda", "Xena", "Mikayla", "Meaghan", "Cassidy", "Reagan", "Marshalino", "Mikhail", "Cameron","Monique"];
+const last = bestFriends[bestFriends.length -1];
+const middle = bestFriends[Math.floor(bestFriends.length/2)];
+console.log(last);
+console.log(middle);
